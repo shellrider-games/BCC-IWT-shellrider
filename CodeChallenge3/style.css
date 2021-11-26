@@ -1,0 +1,12 @@
+body {
+    font-family: sans-serif;
+    background-color: #CCCCCC;
+}
+
+.myBold {
+    font-weight: bold;
+}
+
+#myImg {
+    border: 1px solid black;
+}

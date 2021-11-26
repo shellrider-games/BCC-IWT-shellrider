@@ -1,6 +1,25 @@
 body {
+    font-size: 18pt;
     font-family: sans-serif;
-    background-color: #CCCCCC;
+    background-color: #eee;
+}
+
+h1 {
+    font-size: 1.8em;
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+p {
+    font-size: 1em;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+ul{
+    font-size: 1.1em;
 }
 
 .myBold {
