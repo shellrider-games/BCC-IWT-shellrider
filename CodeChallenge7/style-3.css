@@ -1,0 +1,16 @@
+body{
+    font-family: sans-serif;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+}
+
+.grid div {
+    color: whitesmoke;
+    background-color: darkslategray;
+    padding: 20px 30px 20px 30px;
+    margin: 20px;
+    border-radius: 16px;
+}
