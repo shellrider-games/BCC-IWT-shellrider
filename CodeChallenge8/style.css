@@ -3,10 +3,30 @@
     to {background-color: blue;}
 }
 
-@keyframes drive {
-    0% {margin-top: 0px; margin-left: 10px;}
-    100% {margin-top: 20%; margin-left: 100%;}
-    
+@media only screen and (max-width: 800px){
+    @keyframes drive {
+        0% {right: 0%; bottom: 0px;}
+        100% {right: 100%;bottom: 100%;}   
+    }
+    #ambulance {
+        float: right;
+        bottom: 0px;
+        right: 0%;
+        max-height: 256px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    @keyframes drive {
+        0% {right: 0%; top: 0vh;}
+        100% {right: 100%;top: 100vh;}   
+    }
+    #ambulance {
+        float: right;
+        top: 0vh;
+        right:0%;
+        max-height: 256px;
+    }
 }
 
 body{
@@ -22,10 +42,9 @@ body{
     overflow: hidden;
 }
 
-#ambulance {
-    margin-left: 10px;
-    margin-top: 0px;
 
+#ambulance {
+    position: absolute;
     animation-name: drive;
     animation-duration: 1.5s;
     animation-timing-function: ease-in;
